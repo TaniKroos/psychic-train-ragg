@@ -1,0 +1,17 @@
+# Core dependencies
+fastapi
+uvicorn
+faiss-cpu             # Vector search
+cohere                # Cohere API
+
+# PDF text extraction (you can choose one)
+PyMuPDF               # Option 1 (recommended)
+# pdfminer.six        # Option 2
+# pdfplumber          # Option 3
+
+# Utils
+python-multipart      # For file uploads in FastAPI
+tqdm                  # For progress bars (optional)
+
+# (Optional) for response evaluation
+deepeval              # If you're using DeepEval

@@ -1,0 +1,4 @@
+.env
+.deepeval
+.venv
+app/__pycache__
